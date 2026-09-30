@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Portfolio | Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header">
+    <a href="#home" class="logo">Portfolio<span>.</span></a>
+    <div class="menu-toggle" id="menuToggle">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <nav class="navbar" id="navMenu">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#resume" class="nav-link">Resume</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="greeting">Hello, I'm</p>
+      <h1>Ajeet Yadav</h1>
+      <h3>I am a <span class="typing-text"></span></h3>
+      <p class="desc">
+        A passionate Web Developer specializing in building responsive, modern, and user-centric web applications.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      </div>
+      <div class="social-links">
+        <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:ajeet@example.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <div class="img-wrapper">
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500" alt="Profile Picture">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <div class="section-title">
+      <h2>About Me</h2>
+      <p>My journey and background</p>
+    </div>
+    <div class="about-container">
+      <div class="about-text">
+        <p>
+          I am a dedicated Web Development Intern and student passionate about transforming creative ideas into intuitive and functional websites. I enjoy solving challenging algorithmic problems, optimizing frontend workflows, and crafting seamless digital experiences.
+        </p>
+        <div class="info-grid">
+          <div><strong>Role:</strong> Web Development Intern</div>
+          <div><strong>Location:</strong> India</div>
+          <div><strong>Availability:</strong> Open for Opportunities</div>
+          <div><strong>Focus:</strong> Frontend & Full-Stack Web Development</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section skills" id="skills">
+    <div class="section-title">
+      <h2>My Skills</h2>
+      <p>Technologies and tools I work with</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <i class="fa-brands fa-html5"></i>
+        <h4>HTML5</h4>
+      </div>
+      <div class="skill-card">
+        <i class="fa-brands fa-css3-alt"></i>
+        <h4>CSS3 & Flexbox</h4>
+      </div>
+      <div class="skill-card">
+        <i class="fa-brands fa-js"></i>
+        <h4>JavaScript (ES6+)</h4>
+      </div>
+      <div class="skill-card">
+        <i class="fa-brands fa-react"></i>
+        <h4>React.js</h4>
+      </div>
+      <div class="skill-card">
+        <i class="fa-brands fa-node-js"></i>
+        <h4>Node.js / Express</h4>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-database"></i>
+        <h4>MongoDB</h4>
+      </div>
+      <div class="skill-card">
+        <i class="fa-brands fa-git-alt"></i>
+        <h4>Git & GitHub</h4>
+      </div>
+      <div class="skill-card">
+        <i class="fa-solid fa-code"></i>
+        <h4>Responsive Design</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section projects" id="projects">
+    <div class="section-title">
+      <h2>Featured Projects</h2>
+      <p>Some of the recent work I've built</p>
+    </div>
+    <div class="project-grid">
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1557821552-17105176677c?w=600" alt="E-Commerce Website">
+        <div class="project-info">
+          <h3>E-Commerce Web Application</h3>
+          <p>Full-fledged store with product filters, dynamic cart management, and seamless mock checkout integration.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            <a href="#" class="link-btn"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600" alt="Music Player">
+        <div class="project-info">
+          <h3>Music Player App</h3>
+          <p>Custom audio player featuring playlist selection, track navigation, seekable progress bar, and volume controls.</p>
+          <div class="tags">
+            <span>JavaScript</span><span>Audio API</span><span>CSS Grid</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            <a href="#" class="link-btn"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600" alt="Student Management System">
+        <div class="project-info">
+          <h3>Student Management Portal</h3>
+          <p>A web dashboard enabling student registration, records management, and real-time state manipulation.</p>
+          <div class="tags">
+            <span>React</span><span>Node.js</span><span>CRUD</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="link-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            <a href="#" class="link-btn"><i class="fa-brands fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section class="section resume" id="resume">
+    <div class="section-title">
+      <h2>My Resume</h2>
+      <p>Experience and academic credentials</p>
+    </div>
+    <div class="resume-wrapper">
+      <div class="resume-column">
+        <h3><i class="fa-solid fa-briefcase"></i> Experience</h3>
+        <div class="resume-item">
+          <h4>Web Development Intern</h4>
+          <span class="sub">Auspify Technologies</span>
+          <p>Building responsive web UI components, maintaining codebases, and collaborating on feature implementations.</p>
+        </div>
+      </div>
+      <div class="resume-column">
+        <h3><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+        <div class="resume-item">
+          <h4>Bachelor's in Computer Applications / Tech Course</h4>
+          <span class="sub">College / University</span>
+          <p>Focusing on computer science fundamentals, data structures, and web technologies.</p>
+        </div>
+      </div>
+    </div>
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="#" class="btn btn-primary" download><i class="fa-solid fa-download"></i> Download Full Resume</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact" id="contact">
+    <div class="section-title">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out for projects and inquiries</p>
+    </div>
+    <div class="contact-container">
+      <div class="contact-details">
+        <div class="contact-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <h4>Location</h4>
+            <p>Meerut, Uttar Pradesh, India</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <h4>Email</h4>
+            <p>contact@developer.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <h4>Phone</h4>
+            <p>+91 98765 43210</p>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <input type="text" id="senderName" placeholder="Your Name" required class="form-input">
+        <input type="email" id="senderEmail" placeholder="Your Email" required class="form-input">
+        <textarea id="senderMessage" rows="5" placeholder="Your Message" required class="form-input"></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 Ajeet Yadav. Built for Task 3 submission. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
